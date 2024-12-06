@@ -1,0 +1,1 @@
+all interiors color files.
