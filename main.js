@@ -8,7 +8,7 @@ function createWindow () {
         webPreferences: {
             nodeIntegration: true
         },
-        title: 'Excilon Color Demo / 宜瓷龙颜色展示'
+        title: '宜瓷龙颜色展示 / Excilon Color Demo'
     })
 
     win.loadFile('index.html')

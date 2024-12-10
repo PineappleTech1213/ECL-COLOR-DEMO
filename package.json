@@ -1,9 +1,26 @@
 {
   "name": "excilon-color-demo",
   "version": "1.0.0",
+  "description": "宜瓷龙陶瓷涂层颜色展示 / Excilon Ceramic Coating Color Demo",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder"
+  },
+  "author": "Shanghai Excilon New Materials Co. Ltd",
+  "license": "UNLICENSED",
+  "private": true,
+  "build": {
+    "appId": "com.excilon.colordemo",
+    "productName": "宜瓷龙颜色展示",
+    "directories": {
+      "output": "dist"
+    },
+    "mac": {
+      "category": "public.app-category.business"
+    },
+    "win": {
+      "target": "nsis"
+    }
   }
 } 

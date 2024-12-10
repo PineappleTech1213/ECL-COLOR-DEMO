@@ -1,6 +1,6 @@
 {
-  "name": "Excilon Color Demo / 宜瓷龙颜色展示",
-  "short_name": "Excilon Colors",
+  "name": "宜瓷龙颜色展示 / Excilon Color Demo",
+  "short_name": "宜瓷龙颜色",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
@@ -12,6 +12,6 @@
       "type": "image/png"
     }
   ],
-  "lang": ["en", "zh"],
-  "description": "Color demonstration application for Excilon ceramic coating / 宜瓷龙陶瓷涂层颜色展示应用"
+  "lang": ["zh", "en"],
+  "description": "宜瓷龙陶瓷涂层颜色展示应用 / Color demonstration application for Excilon ceramic coating"
 } 
