@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Demostration For Your Cookware</title>
+    <title>宜瓷龙炊具颜色展示</title>
     <style>
         .container {
             display: grid;
@@ -41,7 +41,7 @@
             align-items: center;
             justify-content: flex-start;
             margin: 0 auto;
-            user-select: none;  /* Prevent text selection */
+            user-select: none;
             -webkit-user-select: none;
             -moz-user-select: none;
             -ms-user-select: none;
@@ -52,8 +52,8 @@
             height: calc(100% - 40px);
             object-fit: contain;
             margin-top: 10px;
-            pointer-events: none;  /* Prevent direct interaction with image */
-            -webkit-user-drag: none;  /* Prevent dragging */
+            pointer-events: none;
+            -webkit-user-drag: none;
             -khtml-user-drag: none;
             -moz-user-drag: none;
             -o-user-drag: none;
@@ -102,7 +102,7 @@
             font-weight: bold;
             font-family: Arial, sans-serif;
             text-align: center;
-            grid-column: 1 / -1;  /* Make it span across all columns */
+            grid-column: 1 / -1;
             font-size: 14px;
         }
 
@@ -148,15 +148,15 @@
             font-size: 48px;
             font-family: Arial, sans-serif;
             font-weight: bold;
-            color: rgba(0, 0, 0, 0.1);  /* Semi-transparent black */
-            pointer-events: none;  /* Makes watermark non-interactive */
+            color: rgba(0, 0, 0, 0.1);
+            pointer-events: none;
             z-index: 1;
             text-transform: uppercase;
             letter-spacing: 5px;
         }
 
         .footer {
-            background-color: #0066cc;  /* Match header color */
+            background-color: #0066cc;
             color: white;
             text-align: center;
             padding: 10px 0;
@@ -195,141 +195,141 @@
 </head>
 <body>
     <div class="language-selector">
-        <button class="language-btn" onclick="window.location.href='index-cn.html'">中文</button>
+        <button class="language-btn" onclick="window.location.href='index.html'">English</button>
     </div>
-    <h1>Color Demonstration With Excilon Ceramic Coating</h1>
+    <h1>宜瓷龙陶瓷涂层颜色展示</h1>
     <div class="container">
         <div class="exterior-color-area">
-            <h2 class="h2">Exterior Color Selections ( 16 Popular Colors )</h2>
+            <h2 class="h2">外部颜色选择（16种流行颜色）</h2>
             
             <div class="image-display">
-                <p class="selected-color" id="exteriorSelectedColor">Currently selected: WHITE</p>
-                <div class="watermark">Excilon</div>
-                <img id="exteriorImage" src="images/exteriors/WHITE.png" alt="Exterior Color Image">
+                <p class="selected-color" id="exteriorSelectedColor">当前选择：白色</p>
+                <div class="watermark">宜瓷龙</div>
+                <img id="exteriorImage" src="images/exteriors/WHITE.png" alt="外部颜色图片">
             </div>
             <div class="exterior-color-palette">
                 <button class="exterior-color" data-image="images/exteriors/BRIGHT-BLUE.png">
                     <span class="color-swatch" style="background-color: #a9e5f7"></span>
-                    BRIGHT BLUE
+                    亮蓝色
                 </button>
                 <button class="exterior-color" data-image="images/exteriors/LIGHT-GREEN.png">
                     <span class="color-swatch" style="background-color: #adf680"></span>
-                    LIGHT GREEN
+                    浅绿色
                 </button>
                 <button class="exterior-color" data-image="images/exteriors/PEPPER-WHITE.png">
                     <span class="color-swatch" style="background-color: #DEDAD2"></span>
-                    PEPPER WHITE
+                    胡椒白
                 </button>
                 <button class="exterior-color" data-image="images/exteriors/CONSTRUCTION-BLUE.png">
                     <span class="color-swatch" style="background-color: #6895ef"></span>
-                    CONSTRUCTION BLUE
+                    建筑蓝
                 </button>
                 <button class="exterior-color" data-image="images/exteriors/EMERALD-GREEN.png">
                     <span class="color-swatch" style="background-color: #0a5207"></span>
-                    EMERALD GREEN
+                    翡翠绿
                 </button>
                 <button class="exterior-color" data-image="images/exteriors/SPROUT-GREEN.png">
                     <span class="color-swatch" style="background-color: #9df3a8"></span>
-                    SPROUT GREEN
+                    新芽绿
                 </button>
                 <button class="exterior-color" data-image="images/exteriors/FACTORY-BLUE.png">
                     <span class="color-swatch" style="background-color: #1d8bac"></span>
-                    FACTORY BLUE
+                    工业蓝
                 </button>
                 <button class="exterior-color" data-image="images/exteriors/POWDER-PINK.png">
                     <span class="color-swatch" style="background-color: #d8c6d7"></span>
-                    POWDER PINK
+                    粉末粉
                 </button>
                 <button class="exterior-color" data-image="images/exteriors/DIM-PINK.png">
                     <span class="color-swatch" style="background-color: #CEB6AD"></span>
-                    DIM PINK
+                    暗粉色
                 </button>
                 <button class="exterior-color" data-image="images/exteriors/FOX-RED.png">
                     <span class="color-swatch" style="background-color: #CA4E33"></span>
-                    FOX RED
+                    狐狸红
                 </button>
                 <button class="exterior-color" data-image="images/exteriors/PINK-CRIMSON.png">
                     <span class="color-swatch" style="background-color: #643941"></span>
-                    PINK CRIMSON
+                    深红粉
                 </button>
                 <button class="exterior-color" data-image="images/exteriors/RUSTY.png">
                     <span class="color-swatch" style="background-color: #A46454"></span>
-                    RUSTY
+                    锈红色
                 </button>
                 <button class="exterior-color" data-image="images/exteriors/OLIVE-GREY.png">
                     <span class="color-swatch" style="background-color: #5B7B4D"></span>
-                    OLIVE GREY
+                    橄榄灰
                 </button>
                 <button class="exterior-color" data-image="images/exteriors/WINDSOR-WINE.png">
                     <span class="color-swatch" style="background-color: #452929"></span>
-                    WINDSOR WINE
+                    温莎酒红
                 </button>
                 <button class="exterior-color" data-image="images/exteriors/WHITE.png">
                     <span class="color-swatch" style="background-color: #ffffff"></span>
-                    WHITE
+                    白色
                 </button>
                 <button class="exterior-color" data-image="images/exteriors/LAVENDER.png">
                     <span class="color-swatch" style="background-color: #c1c1df"></span>
-                    LAVENDER
+                    薰衣草紫
                 </button>
             </div>
         </div>
 
         <div class="interior-color-area">
-            <h2 class="h2">Interior Color Selections (10 Popular Colors)</h2>
+            <h2 class="h2">内部颜色选择（10种流行颜色）</h2>
 
             <div class="image-display">
-                <p class="selected-color" id="interiorSelectedColor">Currently selected: WHITE</p>
-                <div class="watermark">Excilon</div>
-                <img id="interiorImage" src="images/interiors/WHITE.png" alt="Interior Color Image">
+                <p class="selected-color" id="interiorSelectedColor">当前选择：白色</p>
+                <div class="watermark">宜瓷龙</div>
+                <img id="interiorImage" src="images/interiors/WHITE.png" alt="内部颜色图片">
             </div>
             <div class="interior-color-palette">
                 <button class="interior-color" data-image="images/interiors/WHITE.png">
                     <span class="color-swatch" style="background-color: #fffdfd"></span>
-                    WHITE
+                    白色
                 </button>
                 <button class="interior-color" data-image="images/interiors/BARITONE-BLUE.png">
-                    <span class="color-swatch" style="background-color: #2600ff"></span>
-                    BARITONE-BLUE
+                    <span class="color-swatch" style="background-color: #160091"></span>
+                    重音蓝
                 </button>
                 <button class="interior-color" data-image="images/interiors/PEAR-SOBRET.png">
                     <span class="color-swatch" style="background-color: #F6E8C3"></span>
-                    PEAR SOBRET
+                    梨子雪葩
                 </button>
                 <button class="interior-color" data-image="images/interiors/PEARL-YELLOW.png">
                     <span class="color-swatch" style="background-color: #FCDE8F"></span>
-                    PEARL YELLOW
+                    珍珠黄
                 </button>
                 <button class="interior-color" data-image="images/interiors/LUCENT-WHITE.png">
                     <span class="color-swatch" style="background-color: #F0F0EA"></span>
-                    SNOW WHITE
+                    雪白色
                 </button>
                 <button class="interior-color" data-image="images/interiors/PEPPER-WHITE.png">
                     <span class="color-swatch" style="background-color: #F3EEE6"></span>
-                    PEPPER WHITE
+                    胡椒白
                 </button>
                 <button class="interior-color" data-image="images/interiors/BROWN-GREY.png">
                     <span class="color-swatch" style="background-color: #CEC6B8"></span>
-                    BROWN GREY
+                    褐灰色
                 </button>
                 <button class="interior-color" data-image="images/interiors/PEANUT-BUTTER.png">
                     <span class="color-swatch" style="background-color: #C7B58E"></span>
-                    PEANUT BUTTER
+                    花生酱色
                 </button>
                 <button class="interior-color" data-image="images/interiors/CURDS-WHEY.png">
                     <span class="color-swatch" style="background-color: #bfad54"></span>
-                    CURDS WHEY
+                    凝乳色
                 </button>
                 <button class="interior-color" data-image="images/interiors/BEIGE-WHITE.png">
                     <span class="color-swatch" style="background-color: #efe6c7e6"></span>
-                    BEIGE WHITE
+                    米白色
                 </button>
             </div>
         </div>
     </div>
 
     <footer class="footer">
-        <p>&copy; 2024 Shanghai Excilon New Materials Co. Ltd. All rights reserved. Ceramic Coating Technology.</p>
+        <p>&copy; 2024 上海艾赛龙新材料有限公司。保留所有权利。陶瓷涂层技术。</p>
     </footer>
 
     <script>
@@ -345,7 +345,7 @@
                 const imageName = this.getAttribute('data-image');
                 const colorName = this.textContent.trim();
                 interiorImage.src = imageName;
-                interiorSelectedColor.textContent = `Currently selected: ${colorName}`;
+                interiorSelectedColor.textContent = `当前选择：${colorName}`;
             });
         });
 
@@ -354,7 +354,7 @@
                 const imageName = this.getAttribute('data-image');
                 const colorName = this.textContent.trim();
                 exteriorImage.src = imageName;
-                exteriorSelectedColor.textContent = `Currently selected: ${colorName}`;
+                exteriorSelectedColor.textContent = `当前选择：${colorName}`;
             });
         });
 
@@ -383,4 +383,4 @@
         });
     </script>
 </body>
-</html>
+</html> 

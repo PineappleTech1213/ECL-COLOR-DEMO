@@ -7,7 +7,8 @@ function createWindow () {
         height: 900,
         webPreferences: {
             nodeIntegration: true
-        }
+        },
+        title: 'Excilon Color Demo / 宜瓷龙颜色展示'
     })
 
     win.loadFile('index.html')

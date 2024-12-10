@@ -1,5 +1,5 @@
 {
-  "name": "Excilon Color Demo",
+  "name": "Excilon Color Demo / 宜瓷龙颜色展示",
   "short_name": "Excilon Colors",
   "start_url": ".",
   "display": "standalone",
@@ -11,5 +11,7 @@
       "sizes": "192x192",
       "type": "image/png"
     }
-  ]
+  ],
+  "lang": ["en", "zh"],
+  "description": "Color demonstration application for Excilon ceramic coating / 宜瓷龙陶瓷涂层颜色展示应用"
 } 
